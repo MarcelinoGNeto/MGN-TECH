@@ -1,0 +1,9 @@
+{
+  "name": "@mgn-tech/utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@mgn-tech/tsconfig-commons": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@mgn-tech/design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.69.4"
+  },
+  "devDependencies": {
+    "@mgn-tech/tsconfig-commons": "*"
+  }
+}

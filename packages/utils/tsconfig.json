@@ -1,0 +1,3 @@
+{
+  "extends":"@mgn-tech/tsconfig-commons/base.json"
+}

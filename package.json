@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "projects/*",
+      "setup/*"
+    ]
+  },
+  "scripts": {
+    "web-public": "yarn workspace @mgn-tech/web-public",
+    "dev:web-public": "yarn web-public dev",
+    "build:web-public": "yarn web-public build",
+    "start:web-public": "yarn web-public start",
+    "lint:web-public": "yarn web-public lint",
+    "design-system": "yarn workspace @mgn-tech/design-system"
+  },
+  "dependencies": {
+    "eslint": "8.52.0",
+    "prettier": "3.0.3",
+    "@types/sass": "1.45.0",
+    "@types/node": "20.8.7",
+    "@types/react": "^18.2.31",
+    "typescript": "5.2.2"
+  }
+}
