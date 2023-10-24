@@ -1,17 +1,18 @@
 import React from "react";
-import "../../styles/style.scss";
+import styled from "styled-components";
+
+const StyledText = styled.span`
+  font-family: sans-serif;
+`;
 
 interface TextProps {
-  tag: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p";
+  tag: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
   children: React.ReactNode;
 }
-
 export function Text({ tag, children, ...props }: TextProps) {
-  const className = `StyledText ${tag}`;
-
   return (
-    <p className={className} {...props}>
+    <StyledText as={tag} {...props}>
       {children}
-    </p>
+    </StyledText>
   );
 }
