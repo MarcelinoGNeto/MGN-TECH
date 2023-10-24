@@ -13,6 +13,7 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
+    "lint": "yarn workspaces run lint",
     "design-system": "yarn workspace @mgn-tech/design-system"
   },
   "dependencies": {
