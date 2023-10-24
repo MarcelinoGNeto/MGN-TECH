@@ -14,12 +14,15 @@
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
     "lint": "yarn workspaces run lint",
-    "design-system": "yarn workspace @mgn-tech/design-system"
+    "design-system": "yarn workspace @mgn-tech/design-system",
+    "utils": "yarn workspace @mgn-tech/utils",
+    "test:utils": "yarn utils test"
   },
   "dependencies": {
     "eslint": "8.52.0",
     "prettier": "3.0.3",
     "@types/sass": "1.45.0",
+    "@types/jest": "29.5.6",
     "@types/node": "20.8.7",
     "@types/react": "^18.2.31",
     "typescript": "5.2.2"

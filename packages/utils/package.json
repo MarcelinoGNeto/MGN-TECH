@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
+    "@mgn-tech/test-commons": "*",
     "@mgn-tech/tsconfig-commons": "*",
     "@mgn-tech/eslint-commons": "*"
   }
